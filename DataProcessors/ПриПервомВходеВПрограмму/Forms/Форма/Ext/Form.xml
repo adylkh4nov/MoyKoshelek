@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<HorizontalAlign>Center</HorizontalAlign>
+	<VerticalAlign>Center</VerticalAlign>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="Декорация6" id="21">
+			<Font ref="style:NormalTextFont" faceName="Berlin Sans FB Demi" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выберите основную валюту</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация6КонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="23"/>
+		</LabelDecoration>
+		<InputField name="Валюта" id="1">
+			<DataPath>Объект.Валюта</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВалютаКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ВалютаРасширеннаяПодсказка" id="3"/>
+			<Events>
+				<Event name="OnChange">ВалютаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<LabelDecoration name="Декорация7" id="27">
+			<Font ref="style:NormalTextFont" faceName="Berlin Sans FB Demi" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создайте свой первый кошелек</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="Декорация7КонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="Декорация7РасширеннаяПодсказка" id="29"/>
+		</LabelDecoration>
+		<InputField name="Кошелек" id="35">
+			<DataPath>Объект.Кошелек</DataPath>
+			<Enabled>false</Enabled>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ChoiceForm>Catalog.Кошельки.Form.ФормаВыбора</ChoiceForm>
+			<ContextMenu name="КошелекКонтекстноеМеню" id="36"/>
+			<ExtendedTooltip name="КошелекРасширеннаяПодсказка" id="37"/>
+		</InputField>
+		<LabelDecoration name="ОсобыйТекст1" id="32">
+			<TextColor>style:SpecialTextColor</TextColor>
+			<Font ref="style:NormalTextFont" faceName="Berlin Sans FB Demi" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполните все значения !</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ОсобыйТекст1КонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="ОсобыйТекст1РасширеннаяПодсказка" id="34"/>
+		</LabelDecoration>
+		<Button name="Продолжить" id="4">
+			<Type>UsualButton</Type>
+			<DefaultButton>true</DefaultButton>
+			<Enabled>false</Enabled>
+			<CommandName>Form.Command.Продолжить</CommandName>
+			<ExtendedTooltip name="ПродолжитьРасширеннаяПодсказка" id="5"/>
+		</Button>
+		<LabelDecoration name="Декорация5" id="18">
+			<ContextMenu name="Декорация5КонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="20"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация4" id="15">
+			<ContextMenu name="Декорация4КонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="17"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация3" id="12">
+			<ContextMenu name="Декорация3КонтекстноеМеню" id="13"/>
+			<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="14"/>
+		</LabelDecoration>
+		<LabelDecoration name="Декорация2" id="9">
+			<ContextMenu name="Декорация2КонтекстноеМеню" id="10"/>
+			<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="11"/>
+		</LabelDecoration>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПриПервомВходеВПрограмму</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Продолжить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Продолжить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПродолжитьДальше</Action>
+		</Command>
+		<Command name="СоздатьКошелек" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать кошелек</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать кошелек</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+</Form>

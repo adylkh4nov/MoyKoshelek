@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<HorizontalAlign>Center</HorizontalAlign>
+	<VerticalAlign>Center</VerticalAlign>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="19">
+			<Width>25</Width>
+			<Height>5</Height>
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<GroupVerticalAlign>Center</GroupVerticalAlign>
+			<Group>Vertical</Group>
+			<HorizontalAlign>Left</HorizontalAlign>
+			<VerticalAlign>Center</VerticalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="20"/>
+			<ChildItems>
+				<LabelDecoration name="Промежуток5" id="80">
+					<ContextMenu name="Промежуток5КонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="Промежуток5РасширеннаяПодсказка" id="82"/>
+				</LabelDecoration>
+				<LabelDecoration name="Промежуток4" id="49">
+					<ContextMenu name="Промежуток4КонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="Промежуток4РасширеннаяПодсказка" id="51"/>
+				</LabelDecoration>
+				<UsualGroup name="Группа5" id="21">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>фыафыа</v8:content>
+						</v8:item>
+					</Title>
+					<Width>20</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="22"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация5" id="23">
+							<Font ref="style:NormalTextFont" height="22" kind="StyleItem" scale="100"/>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<Hyperlink>true</Hyperlink>
+							<PictureSize>ByFontSize</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.НоваяОперация</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация5КонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="25"/>
+							<Events>
+								<Event name="Click">НоваяОперация</Event>
+							</Events>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация1" id="26">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Новая операция</v8:content>
+								</v8:item>
+							</Title>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="Декорация1КонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="28"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="Промежуток3" id="46">
+					<ContextMenu name="Промежуток3КонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="Промежуток3РасширеннаяПодсказка" id="48"/>
+				</LabelDecoration>
+				<UsualGroup name="Группа6" id="29">
+					<Width>20</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="30"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация2" id="31">
+							<Font ref="style:NormalTextFont" height="22" kind="StyleItem" scale="100"/>
+							<Hyperlink>true</Hyperlink>
+							<PictureSize>ByFontSize</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.Баланс</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="33"/>
+							<Events>
+								<Event name="Click">БалансНажатие</Event>
+							</Events>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация6" id="34">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчеты</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="Декорация6КонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="36"/>
+							<Events>
+								<Event name="Click">БалансНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<LabelDecoration name="Промежуток8" id="83">
+			<ContextMenu name="Промежуток8КонтекстноеМеню" id="84"/>
+			<ExtendedTooltip name="Промежуток8РасширеннаяПодсказка" id="85"/>
+		</LabelDecoration>
+		<UsualGroup name="Группа3" id="1">
+			<Width>25</Width>
+			<Height>7</Height>
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<GroupVerticalAlign>Center</GroupVerticalAlign>
+			<Group>Vertical</Group>
+			<HorizontalAlign>Left</HorizontalAlign>
+			<VerticalAlign>Top</VerticalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Группа4" id="60">
+					<Width>20</Width>
+					<Height>5</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="61"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация9" id="62">
+							<Font ref="style:NormalTextFont" height="22" kind="StyleItem"/>
+							<Hyperlink>true</Hyperlink>
+							<PictureSize>ByFontSize</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.Каспи</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация9КонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="Декорация9РасширеннаяПодсказка" id="64"/>
+							<Events>
+								<Event name="Click">Декорация9Нажатие</Event>
+							</Events>
+						</PictureDecoration>
+						<LabelDecoration name="Декорация10" id="65">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Загрузить выписку Kaspi.kz</v8:content>
+								</v8:item>
+							</Title>
+							<HorizontalAlign>Center</HorizontalAlign>
+							<ContextMenu name="Декорация10КонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="67"/>
+						</LabelDecoration>
+						<LabelDecoration name="Промежуток9" id="77">
+							<ContextMenu name="Промежуток9КонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="Промежуток9РасширеннаяПодсказка" id="79"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа8" id="52">
+					<Width>20</Width>
+					<Height>5</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>false</VerticalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<VerticalAlign>Center</VerticalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="53"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация8" id="54">
+							<Font ref="style:NormalTextFont" height="22" kind="StyleItem" scale="100"/>
+							<Hyperlink>true</Hyperlink>
+							<PictureSize>ByFontSize</PictureSize>
+							<Picture>
+								<xr:Ref>CommonPicture.Долг</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация8КонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="Декорация8РасширеннаяПодсказка" id="56"/>
+							<Events>
+								<Event name="Click">Декорация4Нажатие</Event>
+							</Events>
+						</PictureDecoration>
+						<LabelDecoration name="Долги1" id="57">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Долги</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Долги1КонтекстноеМеню" id="58"/>
+							<ExtendedTooltip name="Долги1РасширеннаяПодсказка" id="59"/>
+						</LabelDecoration>
+						<LabelDecoration name="Промежуток7" id="71">
+							<ContextMenu name="Промежуток7КонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="Промежуток7РасширеннаяПодсказка" id="73"/>
+						</LabelDecoration>
+						<LabelDecoration name="Промежуток6" id="68">
+							<ContextMenu name="Промежуток6КонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="Промежуток6РасширеннаяПодсказка" id="70"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.НачалоРаботы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
